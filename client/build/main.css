@@ -1,0 +1,95 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #faebd7;
+}
+
+#title {
+  text-align: center;
+  color:#285476;
+}
+
+#display{
+  width: 100%;
+  text-align: left;
+  border: #1934ff solid 2px;
+  border-radius: 2%;
+  padding: 2%;
+  background-color: #e1e1e1;
+}
+
+#cart{
+  width: 100%;
+  text-align: left;
+  margin: 2% 1%;
+}
+
+#cartDiv{
+  margin-top: 2%;
+  width: 78%;
+  height: 200px;
+  display: inline-block;
+  overflow: scroll;
+  border: #1934ff solid 2px;
+  border-radius: 2%;
+  background-color: #e1e1e1;
+}
+
+#total {
+  margin-top: 2%;
+  display: inline-block;
+  float: right;
+  margin-right: 8%;
+}
+
+#voucher {
+margin-top: 1%;
+}
+
+#outOfStock {
+  float: right;
+  margin-right: 40%;
+  margin-top: 1%;
+}
+
+td {
+  padding-top: 1%
+}
+
+table tr:nth-child(2n + 2){
+  color:#285476;
+}
+
+table tr:nth-child(2n + 3){
+  color:#a50000 ;
+}
+
+th {
+  color: #161e2c;
+}
+
+
+form {
+  color:#285476;
+}
+
+.red {
+  color:#a50000;
+}
+
+.blue {
+  color:#285476;
+}
+
+#cartEmpty {
+  margin:8% 30%;
+  color: #a50000;
+}
+
+#invalid {
+  color:#a50000;
+}
+
+
+
+
+
